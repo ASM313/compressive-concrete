@@ -1,6 +1,6 @@
 # Compressive strength of concrete
 
-## :concrete: :labour: :cement: Predict the strength
+## :![concrete](image.png): :labour: :cement: Predict the strength
 
 ![Untitled design (4)](static\images\concrete.png)
 
@@ -27,7 +27,6 @@
 * Scikit-Learn
 * Matplotlib
 * Dill
-* GCC<6.0, check https://github.com/facebookresearch/maskrcnn-benchmark/issues/25
 
 ## :gear: Setup
 1. Install PyTorch :-
