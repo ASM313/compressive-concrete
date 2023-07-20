@@ -2,7 +2,10 @@ pandas
 numpy
 matplotlib
 flask
-sklearn
 dill
 seaborn
--e .
+catboost
+xgboost
+scikit-learn
+gunicorn
+#-e .
