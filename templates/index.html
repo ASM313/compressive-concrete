@@ -18,7 +18,11 @@
         <marquee scrollamount=20><h1> Compressive strength is the ability of material or structure to carry the loads on its surface without any crack or deflection.</h1>
             
         </marquee>
-        
+        {% if  results %}    
+                <div class="alert alert-success " role="alert">
+                    Compressive Strength for given details is {{ results }}
+                </div>                  
+                {% endif %}
         <section id="predict" style="display: flex;justify-content: center;">
         <div id="form-predict" style="margin-top: 20px;" class="shadow p-3 mb-5 bg-body-tertiary rounded">
             <form action="{{ url_for('predict_datapoint')}}" method="post">
@@ -26,11 +30,7 @@
                     <legend>Concrete Compressive Strength Prediction</legend>
                 </h2>
                 <br><hr>
-                {% if  results %}    
-                <div class="alert alert-success " role="alert">
-                    Compressive Strength for given details is {{ results }}
-                </div>                  
-                {% endif %}
+                
                 
                 <div class="col-auto">
                     <label class="form-label" style="margin: 20px;">Cement</label>
