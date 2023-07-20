@@ -1,10 +1,10 @@
 # Compressive strength of concrete
 
-## :![concrete](image.png): :labour: :cement: Predict the strength
+## Predict the strength
 
-![Untitled design (4)](static\images\concrete.png)
+![Untitled design (4)](concrete.png)
 
-![Untitled design (5)](https://user-images.githubusercontent.com/static\images\concrete2.jpg)
+![Untitled design (5)](concrete2.jpg)
 
 - This repository represents **" Compressive Strength of Concrete using Machine Learning techniques "**.
 - With the help of this project we can ease the work of **" Constructors based on the some factors "**.
